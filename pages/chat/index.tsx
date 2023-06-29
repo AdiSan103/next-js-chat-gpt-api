@@ -1,8 +1,8 @@
 import Image from "next/image";
 import backgroundImage from "public/images/bg2.png";
 import personImage from "public/images/person.png";
-import ChatLeft from "src/components/chat/chat-left";
-import ChatRight from "src/components/chat/chat-right";
+import ChatLeft from "../../src/components/chat/ChatLeft";
+import ChatRight from "../../src/components/chat/ChatRight";
 
 interface Props {
   // Define the props for your component here
