@@ -11,15 +11,20 @@ const Index: React.FC<Props> = ({}) => {
   return (
     <div className="bg-black h-full min-h-screen rounded-[40px]">
       <div className="relative flex justify-center bg-yellow-300 rounded-t-[30px]">
-        <Image src={backgroundImage} width={385} height={100} />
-        <Image src={peopleImage} width={360} className="absolute bottom-0" />
+        <Image src={backgroundImage} width={385} height={100} alt="" />
+        <Image
+          src={peopleImage}
+          width={360}
+          className="absolute bottom-0"
+          alt=""
+        />
       </div>
       <div className="bg-black h-full px-8 pt-10">
         <h1 className="text-4xl text-white font-bold">
           Stay connected with your friends and family
         </h1>
         <div className="mt-4 flex gap-2.5 mb-12">
-          <Image src={iconSecurity} width={24} height={24} />
+          <Image src={iconSecurity} width={24} height={24} alt="" />
           <p className="text-base text-white font-bold">
             Secure, private messaging
           </p>

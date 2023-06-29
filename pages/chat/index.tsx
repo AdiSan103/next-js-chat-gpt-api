@@ -18,6 +18,7 @@ const Index: React.FC<Props> = ({}) => {
             width={385}
             height={80}
             className="absolute"
+            alt=""
           />
           <div className="flex gap-3 w-[385px] -mt-20 px-4">
             <Image
@@ -25,6 +26,7 @@ const Index: React.FC<Props> = ({}) => {
               width={42}
               height={42}
               className="w-full max-w-[42px] max-h-[42px]"
+              alt=""
             />
             <div>
               <h6 className="text-white">Ask Me Anything!</h6>
