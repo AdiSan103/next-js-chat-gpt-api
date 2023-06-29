@@ -7,6 +7,7 @@ import ChatRight from "../../src/components/chat/ChatRight";
 interface Props {
   // Define the props for your component here
 }
+
 const Index: React.FC<Props> = ({}) => {
   return (
     <>
